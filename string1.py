@@ -47,17 +47,6 @@ def string(name):
 modified_char = string(str1)
 print(modified_char)
 
-# Given two strings, s1 and s2. Write a program to create a new string s3 by appending s2 in the middle of s1.
-# Input:
-# s1 = "Ault"
-# s2 = "Kelly"
-# Output: "AuKellylt"
-
-def append_middle(s1,s2):
-      mi = int(len(s1) / 2)
-      x = s1[:mi:]
-
-
 # Arrange string characters such that lowercase letters should come first. Given string contains a combination of the lower and upper case letters. Write a program to arrange the characters of a string so that all lowercase letters should come first.
 # Input: IamLearningPython
 # Output: amearningpthonILP
@@ -115,7 +104,7 @@ str1 = str1[::-1]
 print(str1)
 exit
 
-str1 = "PYnative"
+str1 = "IamLearningPython"
 str1 = ''.join(reversed(str1))
 print(str1)
 
