@@ -35,7 +35,8 @@ if str(a) == str(a)[::-1]:
 else:  
     print("yes given number is not palindrome number")
     
-
+def even_num():
+    pass
 
     
 
